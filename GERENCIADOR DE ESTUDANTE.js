@@ -168,7 +168,7 @@ const editarAluno = () => {
                     if (notasValidas(notas)) aluno.notas = [...notas];
 
                     salvarDados();
-                    console.log("✅ Aluno atualizado!\n");
+                    console.log("Aluno atualizado!\n");
                     menu();
                 });
             });
@@ -185,7 +185,7 @@ const removerAluno = () => {
         } else {
             alunos.splice(index, 1);
             salvarDados();
-            console.log("✅ Aluno removido com sucesso!\n");
+            console.log("Aluno removido com sucesso!\n");
         }
         menu();
     });
